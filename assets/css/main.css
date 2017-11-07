@@ -1,0 +1,81 @@
+body{
+
+	font-family: 'Special Elite', cursive;
+	background-image: url(../img/galaxia,-estrellas-174778.jpg);
+	background-size: cover;
+	background-repeat: none;
+
+
+}
+header{
+	background-color: white;
+}
+textarea{
+	width: 488px;
+    height: 234px;
+    resize: none;
+    border-right-style: none;
+    border-bottom-color:2px solid #1dcaff;
+    font-family: 'Special Elite';
+    font-size: 20px;
+
+}
+
+button{
+	background-color: #1dcaff;
+	font-family: 'Open Sans';
+	color:white;
+	font-family: 'Special Elite', cursive;
+	width: 87px;
+    height: 37px;
+    text-align: center;
+    font-size: 16px;
+}	
+
+.color{
+	color: black;
+	cursor: pointer;
+	margin:10px;
+	font-family: 'Special Elite', cursive;
+}
+
+#cont div {
+	padding:1em 0.5em;
+	margin-bottom: 2em;
+	background-color: white;
+}
+#cont{
+	margin-left: 1em;
+	background-color: white;
+}
+
+/*HEADER*/
+
+.container{
+	text-align: center;
+}
+.enlace{
+	text-decoration: none;
+}
+.contenedor1{
+	    
+	background-color: white;
+    display: inline-block;
+    height: 300px;
+    width: 600px;
+    margin-top: 100px;
+    margin-bottom: -300px;
+    float: left;
+    margin-left: 50px;
+   
+
+}
+/*FIN SECTION2*/
+.center{
+	background-color: white;
+	display: inline-block;
+	height: 300px;
+	width: 550px;
+    margin-left: 690px;
+
+}

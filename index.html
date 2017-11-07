@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Twitter</title>
+	<link rel="stylesheet" href="assets/css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Source+Code+Pro|Special+Elite" rel="stylesheet">
+	
+
+</head>
+<body>
+	<header>
+		<div class="container">
+		<img  class= "logo" src="assets/img/twitter.png" width="200px"  alt="logotwit">
+
+		</div>
+	</header>
+	<!--foto-->
+	<section>
+		<div style="filter:alpha(opacity=95); opacity:0.9;" class="contenedor-general">
+		<div class="container-center">
+			<div class="img"></div>
+			
+		</div>
+	<section>
+		<div class="contenedor1">
+			<h1>Reto de Codigo</h1>
+			<p>Hola soy front-end developer in progress</p>
+			<hr>
+			<br>
+			<br>
+			<a class="enlace" href="#">CODIGO</a>
+			<br>
+			
+		</div>
+	</section>
+	</section>
+
+	<!--text area, boton,contenedor msjes-->
+	<section style="filter:alpha(opacity=95); opacity:0.9;" class="center">
+
+		<div class="containertxt">
+
+			<form action="#" method="post">
+			<textarea onKeyDown="charactLimit()" onKeyUp="charactLimit ()"  resize= none; class="txt"  id="tweet" placeholder="¿Que esta pasando?"></textarea>
+
+			<br>
+			<button type="button" id="btn" onclick="add()">TWEET</button>
+
+			<input type="text" id="inp" style= "width:45px";readonly value ="140"> 
+			
+			
+		</div>
+	</section>
+
+	<div id="cont"></div>
+
+		</div>
+
+		
+	
+
+	<!--scrip Files-->
+	<script type="text/javascript" src="assets/js/app.js"></script>
+</body>
+</html>
