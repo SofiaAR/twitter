@@ -36,17 +36,17 @@
 	</section>
 
 	<!--text area, boton,contenedor msjes-->
-	<section style="filter:alpha(opacity=95); opacity:0.9;" class="center">
+	<section style="filter:alpha(opacity=70); opacity:0.7;" class="center">
 
 		<div class="containertxt">
 
 			<form action="#" method="post">
-			<textarea onKeyDown="charactLimit()" onKeyUp="charactLimit ()"  resize= none; class="txt"  id="tweet" placeholder="¿Que esta pasando?"></textarea>
+			<textarea oninput="charactLimit()" class="txt"  id="tweet" placeholder="¿Que esta pasando?"></textarea>
 
 			<br>
 			<button type="button" id="btn" onclick="add()">TWEET</button>
-
-			<input type="text" id="inp" style= "width:45px";readonly value ="140"> 
+			<p id="inp">140</p>
+			
 			
 			
 		</div>

@@ -1,3 +1,7 @@
+
+var btn = document.getElementById('btn');
+			btn.disabled=true;
+
 function add(){
 	//tomar el valor// //antes crear una variable q contenga a ese valor//
 	var tweet = document.getElementById("tweet").value; //variable que contiene al valor *value*(node.value)//
@@ -22,18 +26,34 @@ function add(){
 }
 //funcion para contar caracteres desde hasta // 
 
+
+
 function charactLimit(){
+	btn.disabled= false;
 
-	var tweet= document.getElementById("tweet");
+	var tweet = document.getElementById("tweet").value;
+	var parrafo = document.getElementById("inp");
+	var max = 140;
+	parrafo.innerHTML= max-tweet.length;
 
-	if(tweet.value.length > 140){
-		tweet.value = tweet.value.substring(0,140); 
-	}
-else{
-	document.getElementById("inp").value = 140 -tweet.value.length;
 
-	}
 }
+	
+
+/*var des();
+
+if(btn.value.length == ""){
+		 btn.disabled= true;
+}
+else {
+	btn.disabled = false;
+}*/
+
+
+
+
+
+
 
 
 //funcion para validar el boton y se desactive//

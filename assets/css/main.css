@@ -20,7 +20,10 @@ textarea{
     font-size: 20px;
 
 }
-
+#inp{
+	display: inline-block;
+	margin-left: 348px;
+}
 button{
 	background-color: #1dcaff;
 	font-family: 'Open Sans';
@@ -34,9 +37,17 @@ button{
 
 .color{
 	color: black;
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 6px;
 	cursor: pointer;
-	margin:10px;
+	margin-bottom: 10px;
 	font-family: 'Special Elite', cursive;
+}
+
+.color p{
+	margin-bottom: 10px;
 }
 
 #cont div {
