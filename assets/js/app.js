@@ -2,6 +2,7 @@
 var btn = document.getElementById('btn');
 			btn.disabled=true;
 
+
 function add(){
 	//tomar el valor// //antes crear una variable q contenga a ese valor//
 	var tweet = document.getElementById("tweet").value; //variable que contiene al valor *value*(node.value)//
@@ -24,21 +25,53 @@ function add(){
 	cont.appendChild(newTweet);
 
 }
-//funcion para contar caracteres desde hasta // 
-
-
+//funcion para contar caracteres  // 
 
 function charactLimit(){
 	btn.disabled= false;
 
-	var tweet = document.getElementById("tweet").value;
-	var parrafo = document.getElementById("inp");
-	var max = 140;
-	parrafo.innerHTML= max-tweet.length;
-
-
+	var tweet = document.getElementById("tweet").value; // aca se almacena valor de cada tweet//
+	var parrafo = document.getElementById("inp");// var define el contador//
+	var max = 140; // define cantidad max de caracteres.//
+	parrafo.innerHTML= max-tweet.length; //Modificar el contador para que a 140 se le reste el largo del tweet
 }
-	
+
+f/*unction validar(){
+	var valido = true
+	if(getElementById("tweet").value.length = ){
+		valido = false;
+	}
+}
+
+//funcion para auto resize textarea
+
+/*var tweet = document.getElementById("tweet"); 
+var heightLimit = 200; /* Maximum height: 200px */
+/*tweet.oninput = function() {
+tweet.style.height = ""; /* Reset the height*
+tweet.style.height = Math.min(textarea.scrollHeight, heightLimit) + "px";
+};/*
+
+	/*function cambioColor(texto){
+		var caracteres = texto.value.length;
+		btn.innerText = 140 - caracteres;
+
+		if(caracteres >= 120 && caracteres < 130){
+			btn.style.color = "green";
+		}
+		else if (caracteres >130) {
+			btn.style.color = "red";
+		}
+		else{
+			btn.style.color = "black";
+		}
+	}
+};
+/*
+if(document.getElementById('inp').value.length 11>= && <= 20) {
+       element.style.color = 'green';
+   }if(document.getElementById('inp').value.length 0 >=10){
+       element.style.color = 'red';*/
 
 /*var des();
 
@@ -48,13 +81,6 @@ if(btn.value.length == ""){
 else {
 	btn.disabled = false;
 }*/
-
-
-
-
-
-
-
 
 //funcion para validar el boton y se desactive//
 
